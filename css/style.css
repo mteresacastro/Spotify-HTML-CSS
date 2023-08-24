@@ -107,3 +107,44 @@ section h2{
 .img-table{
     width: 100px;
 }
+
+.class_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.table td{
+    padding-top: 30px; 
+    padding-left: 15px; 
+    padding-right: 10px;
+    font-size: 1.8rem;
+    line-height: 40px;
+}
+
+.nav_ul {
+    display: none;
+    color: white;
+    list-style: none;
+    
+
+}
+
+/* Debemos crear dos media queries: una para la versión tablet y una para la versión de escritorio.
+
+En la cabecera ocurre lo siguiente:
+En versión móvil se ve el menú de hamburguesa.
+En versión tablet en adelante se oculta el menú de hamburguesa y se muestra el listado del menú indicado.
+
+Sección azul:
+En versión móvil la imagen de fondo no existe.
+En versión tablet en adelante se muestra la imagen de la chica bailando alineada a la derecha.*/
+
+@media all and (min-width: 480px) {
+    
+}
+
+@media all and (min-width: 1000px){
+
+}

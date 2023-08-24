@@ -13,7 +13,11 @@ html {
     display: flex;
     background-color: black;
     justify-content: space-between;
-    height: 10vh;
+    height: 10%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .img-header1 {
@@ -28,16 +32,14 @@ html {
 
 .hero {
     padding: 20px;
-    padding-top: 100px;
-    padding-bottom: 60px;
-    height: 50vh;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    height: 50%;
     background-color: #31a5e8;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
-
     gap: 2em;
     }
 .hero h1{
@@ -47,11 +49,12 @@ html {
     font-size: 2rem;
 }
 .solo {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding-top: 8px;
 }
 .boton-verde {
     text-transform: uppercase;
-    background-color: green;
+    background-color:rgb(40, 181, 40);
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
@@ -63,4 +66,44 @@ html {
     border-radius: 25px;   
     padding: 15px; 
     margin: auto;
+}
+.footer{
+    background-color: black;
+    color: lightgray; 
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+.españa{
+    display:flex;
+    justify-content: flex-end;
+    gap: 1em; 
+    align-items: flex-end;  
+}
+.medio{
+    display: flex;
+    justify-content: space-between;
+}
+.art1{
+    gap:2em;
+}
+.españa, .medio, .final{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cookies{
+    padding-left: 20px;
+}
+.bandera{
+    width: 30px;
+}
+section h2{
+    font-size: 4rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.img-table{
+    width: 100px;
 }

@@ -104,8 +104,13 @@ section h2{
     text-align: center;
     padding-top: 20px;
 }
+
 .img-table{
-    width: 100px;
+    width: 100%;
+}
+.div-img{
+    width: 10rem;
+    
 }
 
 .class_table {
@@ -115,20 +120,22 @@ section h2{
     padding-bottom: 100px;
 }
 
-article {
+.article {
     display: flex;
     flex-direction: row;
-    }
+    gap: 1.5rem;
+    justify-content: space-around;
+}
 
-/*
-.table td{
+.crazy{
+    display: flex;
+    flex-direction: column;
     padding-top: 30px; 
     padding-left: 15px; 
     padding-right: 10px;
     font-size: 1.8rem;
     line-height: 40px;
 }
-*/
 
 .nav_ul {
     display: none;

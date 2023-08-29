@@ -77,26 +77,24 @@ html {
 }
 .españa{
     display:flex;
-    justify-content: flex-end;
-    gap: 1em; 
+    flex-direction: column;
+    gap: 2.5rem; 
     align-items: flex-end;  
 }
 .medio{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 3rem;
+
 }
-.art1{
-    gap:2em;
-}
-.españa, .medio, .final{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 .cookies{
     padding-left: 20px;
 }
 .bandera{
     width: 30px;
+    margin-left: 5px;
 }
 section h2{
     font-size: 4rem;
@@ -109,8 +107,7 @@ section h2{
     width: 100%;
 }
 .div-img{
-    width: 10rem;
-    
+    width: 10rem;  
 }
 
 .class_table {
@@ -127,7 +124,7 @@ section h2{
     justify-content: space-around;
 }
 
-.crazy{
+.crazy {
     display: flex;
     flex-direction: column;
     padding-top: 30px; 
@@ -141,8 +138,6 @@ section h2{
     display: none;
     color: white;
     list-style: none;
-    
-
 }
 
 /* Debemos crear dos media queries: una para la versión tablet y una para la versión de escritorio.
@@ -162,41 +157,71 @@ En versión tablet en adelante se muestra la imagen de la chica bailando alinead
         background-repeat: no-repeat;
         background-position-x: right;
         height: 100vh;
+        background-size: contain;
         justify-content: space-between;        
-                }
+        }
+    
+    .hero h1{
+        font-size: 8rem;
+    }
+    .escucha{
+        font-size: 3rem;
+    }
+
     .boton-verde {
         display: inline;
-        width: 20%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 60px;
+        padding-right: 60px;
             }
 
     .contenedor-boton {
-         display: flex;
-         align-items: flex-start; 
-         text-align: left;  
-       
-        }
+        display: flex;
+        align-items: flex-start; 
+        text-align: left; 
+    
+    }
     .nav_ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 4.5rem;
+
+    }
+    .header_nav{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-        }
+        padding-right: 30px;
+    } 
+    .nav_ul li{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
     .img-header2 {
         display: none;
+    }    
+    .medio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
-        }
+    
+    }
 
 /*desktop*/
 @media screen and (min-width: 1000px){
     .hero {
         background-image: url("../images/premium_dancer.png");
+        background-size: contain;
         background-repeat: no-repeat;
         background-position-x: right;
         height: 100vh;
         justify-content: space-between;        
-                }
+        }
+    .hero h1{
+        font-size: 8rem;
+    }
     .boton-verde {
         display: inline;
         width: 20%;
@@ -205,18 +230,32 @@ En versión tablet en adelante se muestra la imagen de la chica bailando alinead
             }
 
     .contenedor-boton {
-         display: flex;
-         align-items: flex-start; 
-         text-align: left;  
-       
+        display: flex;
+        align-items: flex-start; 
+        text-align: left;  
         }
+
     .nav_ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 4.5rem; 
+        }
+
+    .header_nav{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+        padding-right: 30px;
         }
+    
     .img-header2 {
         display: none;
-    }
+        }    
+    .medio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    } 
     }

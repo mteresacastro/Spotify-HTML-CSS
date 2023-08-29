@@ -155,10 +155,68 @@ Sección azul:
 En versión móvil la imagen de fondo no existe.
 En versión tablet en adelante se muestra la imagen de la chica bailando alineada a la derecha.*/
 
+/*tablet*/
 @media all and (min-width: 480px) {
-    
-}
+    .hero {
+        background-image: url("../images/premium_dancer.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100vh;
+        justify-content: space-between;        
+                }
+    .boton-verde {
+        display: inline;
+        width: 20%;
+        padding-left: 30px;
+        padding-right: 30px;
+            }
 
-@media all and (min-width: 1000px){
+    .contenedor-boton {
+         display: flex;
+         align-items: flex-start; 
+         text-align: left;  
+       
+        }
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        }
+    .img-header2 {
+        display: none;
+    }
+        }
 
-}
+/*desktop*/
+@media screen and (min-width: 1000px){
+    .hero {
+        background-image: url("../images/premium_dancer.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100vh;
+        justify-content: space-between;        
+                }
+    .boton-verde {
+        display: inline;
+        width: 20%;
+        padding-left: 30px;
+        padding-right: 30px;
+            }
+
+    .contenedor-boton {
+         display: flex;
+         align-items: flex-start; 
+         text-align: left;  
+       
+        }
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        }
+    .img-header2 {
+        display: none;
+    }
+    }

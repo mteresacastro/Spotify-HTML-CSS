@@ -200,7 +200,13 @@ En versión tablet en adelante se muestra la imagen de la chica bailando alinead
     }
     .img-header2 {
         display: none;
-    }    
+    }   
+    
+    .table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .medio{
         display: flex;
         flex-direction: row;
@@ -252,7 +258,41 @@ En versión tablet en adelante se muestra la imagen de la chica bailando alinead
     
     .img-header2 {
         display: none;
-        }    
+        }  
+        
+    .article {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: space-around;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        }
+
+    .div-img {
+        margin: auto;
+    }
+
+    .crazy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 31rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+  
+    .class_table h2{
+        padding: 6rem;
+    }
+
     .medio{
         display: flex;
         flex-direction: row;

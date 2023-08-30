@@ -1,5 +1,26 @@
-.page__header {
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  background-color: $color-header;
+  justify-content: space-between;
+  height: 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.img-header1 {
+  width: 200px;
+  padding: 20px;    
+}
+
+.img-header2 {
+  width: 80px;
+  padding: 20px;    
+}
+
+.nav_ul {
+  display: none;
+  color:$color-font;
+  list-style: none;
 }

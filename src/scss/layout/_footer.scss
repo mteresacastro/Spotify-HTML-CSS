@@ -1,8 +1,29 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer{
+  background-color: $color-header;
+  color: $color-fontfooter;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+}
+.españa{
+  display:flex;
+  flex-direction: column;
+  gap: 2.5rem; 
+  align-items: flex-end;  
+}
+.medio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+
+}
+
+.cookies{
+  padding-left: 20px;
+}
+.bandera{
+  width: 30px;
+  margin-left: 5px;
 }

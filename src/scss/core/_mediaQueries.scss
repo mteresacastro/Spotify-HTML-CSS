@@ -1,0 +1,149 @@
+/*tablet*/
+@media all and (min-width: 480px) {
+    .hero {
+        background-image: url("../images/premium_dancer.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100vh;
+        background-size: contain;
+        justify-content: space-between;        
+        }
+    
+    .hero h1{
+        font-size: 8rem;
+    }
+    .escucha{
+        font-size: 3rem;
+    }
+
+    .boton-verde {
+        display: inline;
+        padding-left: 60px;
+        padding-right: 60px;
+            }
+
+    .contenedor-boton {
+        display: flex;
+        align-items: flex-start; 
+        text-align: left; 
+    
+    }
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 4.5rem;
+
+    }
+    .header_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+    } 
+    .nav_ul li{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .img-header2 {
+        display: none;
+    }   
+    
+    .table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .medio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    }
+
+/*desktop*/
+@media screen and (min-width: 1000px){
+    .hero {
+        background-image: url("../images/premium_dancer.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100vh;
+        justify-content: space-between;        
+        }
+    .hero h1{
+        font-size: 8rem;
+    }
+    .boton-verde {
+        display: inline;
+        width: 20%;
+        padding-left: 30px;
+        padding-right: 30px;
+            }
+
+    .contenedor-boton {
+        display: flex;
+        align-items: flex-start; 
+        text-align: left;  
+        }
+
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 4.5rem; 
+        }
+
+    .header_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 30px;
+        }
+    
+    .img-header2 {
+        display: none;
+        }  
+        
+    .article {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: space-around;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        }
+
+    .div-img {
+        margin: auto;
+    }
+
+    .crazy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 31rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: center;
+    }
+  
+    .class_table h2{
+        padding: 6rem;
+    }
+
+    .medio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    } 
+    }

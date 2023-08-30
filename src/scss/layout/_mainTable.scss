@@ -1,0 +1,37 @@
+section h2{
+    font-size: 4rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-table{
+    width: 100%;
+}
+.div-img{
+    width: 10rem;  
+}
+
+.class_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+
+.crazy {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px; 
+    padding-left: 15px; 
+    padding-right: 10px;
+    font-size: 1.8rem;
+    line-height: 40px;
+}
